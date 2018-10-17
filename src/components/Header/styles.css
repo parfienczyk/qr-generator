@@ -1,0 +1,11 @@
+header {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.title {
+  color: rgb(12, 52, 75);
+  font-size: 18px;
+  font-weight: bold;
+}

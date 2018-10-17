@@ -1,0 +1,48 @@
+.App {
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgb(12, 52, 75);
+}
+
+a,
+.App-link {
+  color: #61dafb;
+}
+
+.DiagonalBg-Diagonal {
+  z-index: 1;
+  position: absolute;
+  top: -660px;
+  bottom: auto;
+  left: 50%;
+  width: 6000px;
+  height: 2900px;
+  transform-origin: 0px center 0px;
+  transform: translate(-50%) skewY(-30deg);
+  background: rgb(239, 243, 245);
+}
+
+.DiagonalBg-AboveDiagonal {
+  position: relative;
+  z-index: 2;
+}
+
+.Wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.42;
+  color: rgb(8, 35, 51);
+  margin: 16px 0px 10px;
+  font-weight: 700;
+}
+
+p {
+  color: rgb(12, 52, 75);
+  font-size: 20px;
+  line-height: 1.6;
+}
